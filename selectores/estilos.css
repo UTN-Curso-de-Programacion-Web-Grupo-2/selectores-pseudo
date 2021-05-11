@@ -1,0 +1,32 @@
+/* */
+div > p {
+    color: blue;
+}
+
+h1 + h2 {
+    color: red;
+}
+
+h1 ~ h2 {
+    background-color: royalblue;
+}
+
+.azul {
+    color: blue
+}
+
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: green
+}
+
+p:not(.azul) {
+    background-color: indigo;
+}
+
+p[class] {
+    background-color: lawngreen;
+}

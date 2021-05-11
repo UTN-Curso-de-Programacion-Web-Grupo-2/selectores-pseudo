@@ -1,0 +1,132 @@
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    min-width: 50px;
+    display: inline-block;
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+header ul li a:hover {
+    color: black;
+    background-color: mediumaquamarine;
+}
+
+
+li.activo a {
+    background-color: lightsteelblue;
+}
+
+main {
+    padding-top: 50px;
+}
+
+input {
+    margin: 5px 0px;
+}
+
+input:focus {
+    border-color: red;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(even) {
+    color: blue;
+}
+
+table thead tr {
+    background-color: salmon;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: grey;
+}
+
+ul#formulas li:nth-child(2n-1) {
+    background-color: hotpink;
+}
+
+ul#invertido li:nth-last-child(2) {
+    background-color: indianred;
+}
+
+ul#nose li:first-child {
+    background-color: khaki;
+}
+
+ul#nose li:last-child {
+    background-color: lawngreen;
+}
+
+#hijo-unico :only-child {
+    background-color: aqua; 
+}
+
+#hijo-unico-tipo :only-of-type {
+    color: red
+}
+
+section div.rojo {
+    background: red;
+    height: 50px;
+}
+
+section div:empty {
+    background: blue;
+}
+
+input:enabled {
+    border-color: forestgreen;
+}
+
+input:disabled {
+    border-color: blueviolet;
+}
+
+input:required {
+    border-color: cyan;
+}
+
+p::first-line {
+    color: blue
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+p::before {
+    content: 'Leeme!';
+    color: gold;
+}
+
+p::after {
+    content: '.';
+    color: purple;
+}
+
+p::selection {
+    background: seagreen;
+}
